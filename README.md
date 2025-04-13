@@ -26,7 +26,7 @@ Inclui:
 ### 1. Clone o repositório
 ```bash
 git clone https://github.com/acamilateixeira/softplan.git
-cd cake-app
+cd softplan
 ```
 
 ### 2. Rode o script de instalação
