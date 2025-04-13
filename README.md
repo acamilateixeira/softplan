@@ -16,7 +16,7 @@ Inclui:
 ---
 
 ## ⚙️ Requisitos
-
+  VOCÊ PRECISA TER
 - Docker + Docker Compose
 
 ---
