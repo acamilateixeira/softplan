@@ -128,12 +128,8 @@ docker compose exec app ./vendor/bin/pest
 
 ---
 
-## 🚀 Produção
-
-Para uso em produção:
 - Configure `.env` com credenciais reais de SMTP e banco
 - Rode `php artisan config:cache && php artisan migrate --force`
-- Suba com `docker compose -f docker-compose.prod.yml up -d` (exemplo)
 
 ---
 
