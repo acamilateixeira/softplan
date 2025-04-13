@@ -111,9 +111,6 @@ Acesse `/summary` no front para ver o gráfico com:
 
 ## 🚫 Problemas comuns
 
-### Front com erro de import
-> Certifique-se de que está usando `./contexts/SnackbarContext` e não `hooks`
-
 ### Backend com erro de conexão no banco
 > Rode `docker compose restart` após o setup caso o banco demore a subir
 
