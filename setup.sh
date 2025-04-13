@@ -37,5 +37,5 @@ docker compose exec frontend npm run dev
 echo "🧪 Rodando testes..."
 docker compose exec app ./vendor/bin/pest
 
-# Finalizado
+# Finalizado 
 echo "✅ Ambiente configurado com sucesso! Acesse em http://localhost:5173"
