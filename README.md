@@ -16,7 +16,7 @@ Inclui:
 ---
 
 ## ⚙️ Requisitos
-
+  VOCÊ PRECISA TER
 - Docker + Docker Compose
 
 ---
@@ -25,8 +25,8 @@ Inclui:
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/cake-app.git
-cd cake-app
+git clone https://github.com/acamilateixeira/softplan.git
+cd softplan
 ```
 
 ### 2. Rode o script de instalação
@@ -111,9 +111,6 @@ Acesse `/summary` no front para ver o gráfico com:
 
 ## 🚫 Problemas comuns
 
-### Front com erro de import
-> Certifique-se de que está usando `./contexts/SnackbarContext` e não `hooks`
-
 ### Backend com erro de conexão no banco
 > Rode `docker compose restart` após o setup caso o banco demore a subir
 
@@ -128,12 +125,8 @@ docker compose exec app ./vendor/bin/pest
 
 ---
 
-## 🚀 Produção
-
-Para uso em produção:
 - Configure `.env` com credenciais reais de SMTP e banco
 - Rode `php artisan config:cache && php artisan migrate --force`
-- Suba com `docker compose -f docker-compose.prod.yml up -d` (exemplo)
 
 ---
 
