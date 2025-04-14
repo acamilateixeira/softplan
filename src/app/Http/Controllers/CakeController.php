@@ -28,12 +28,14 @@ class CakeController extends Controller
                 'cake_id' => $cake->id,
                 'email' => $email,
             ]);
-        
+    
             dispatch(new SendCakeNotificationEmail($email, $cake->name));
         }
-
-        return new CakeResource($cake->load('interestedEmails'));
-    }
+    
+        return response()->json([
+            'data' => new CakeResource($cake->load('interestedEmails')),
+        ]);
+    }    
 
     public function show(Cake $cake)
     {

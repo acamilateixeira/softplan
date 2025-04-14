@@ -7,7 +7,7 @@ export const getCakes = async () => {
 
 export const createCake = async (data) => {
   const response = await client.post('/cakes', data);
-  return response.data;
+  return response.data.data;
 };
 
 export const deleteCake = async (id) => {
